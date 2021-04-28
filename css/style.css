@@ -355,6 +355,10 @@ body {
     margin: 0 auto;
 }
 
+.succesfull {
+    color: #fff;
+}
+
 .button {
     border-radius: 5px;
     background-color: #c70101;
@@ -393,7 +397,7 @@ body {
 
 
 /* comment next block to move popup to the bottom of page*/
-/* .cookie__wrapper {
+.cookie__wrapper {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
@@ -406,11 +410,11 @@ body {
     font-size: 18px;
     text-align: center;
     opacity: .9;
-} */
+}
 
 /* delete comment for next 3 blocks to move popup to the bottom of page */
 /*start deleting*/
-.cookie__wrapper {
+/* .cookie__wrapper {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -432,7 +436,7 @@ body {
 
 .cookie_btn {
     margin-top: 0;
-}
+} */
 /*end deleting*/
 
 .cookie_btn:hover {
@@ -452,13 +456,13 @@ body {
         font-size: 16px;
       }
       
-      .cookie__text > a{
+    .cookie__text > a{
         display: inline-block;
         font-size: 13px;
         margin-top: 8px;
-      }
+    }
       
-      .cookie_btn {
+    .cookie_btn {
         width: 140px;
         height: 35px;
         margin-top: .5rem;
